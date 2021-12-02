@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d56c0ad8cc9f4a22aee3d12ba821121f, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  BulletLifeTime: 1
+  PlayerHelth: 30
+  FirePeriod: 1.2
+  PlayerPrefab:
+    _resource: {fileID: 1186256172198026, guid: 9f3385ee456da431cbd6ef7d9adb68f6,
+      type: 3}
+    _resourcePath: Prefabs/Player
+  BulletPrefab:
+    _resource: {fileID: 1708751659445192, guid: 4c0e2be2754244751b033ade9a7feda0,
+      type: 3}
+    _resourcePath: Prefabs/Bullet
+  BoosterPrefab:
+    _resource: {fileID: 1544894582660898141, guid: b13d0c24a4728064dba390c381e65213,
+      type: 3}
+    _resourcePath: Prefabs/Booster
+  BoosterPrefabFreeze:
+    _resource: {fileID: 7363103135228546731, guid: e749af2274f3f594ca5c560d168585ed,
+      type: 3}
+    _resourcePath: Prefabs/BoosterFreeze
+  CurrentPlayerLayer:
+    _currentPlayerLayer:
+      serializedVersion: 2
+      m_Bits: 32768
+  RemotePlayerLayer:
+    _currentPlayerLayer:
+      serializedVersion: 2
+      m_Bits: 16384
